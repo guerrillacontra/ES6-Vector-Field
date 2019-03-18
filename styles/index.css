@@ -1,0 +1,32 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+/* stops buttons/text/things from being selected when the canvas is clicked */
+.noselect {
+  -webkit-touch-callout: none;
+  /* iOS Safari */
+  -webkit-user-select: none;
+  /* Safari */
+  -khtml-user-select: none;
+  /* Konqueror HTML */
+  -moz-user-select: none;
+  /* Firefox */
+  -ms-user-select: none;
+  /* Internet Explorer/Edge */
+  user-select: none;
+  /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+}
+
+body {
+  background-color: #1A1B1F;
+  color: #ffffff;
+}
+
+#container {
+  max-width: 512px;
+  height: 512px;
+  background-color: black;
+  margin: 0 auto;
+  -webkit-box-sizing: border-box;
+  border-style: solid;
+  border-color: white;
+}
